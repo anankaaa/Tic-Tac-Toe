@@ -1,0 +1,117 @@
+.login  {
+    height: 100vh;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+.login h1{
+    color: darkblue;
+    font-size: 100px;
+   
+}
+
+label, p {
+    color: darkblue
+}
+.container h1 {
+    color: darkblue;
+    font-size: 50px;
+   margin-top: 20px;
+   
+}
+
+.container p{
+    font-size: 25px;
+}
+
+span {
+    font-family:cursive;   
+}
+
+input {
+    height: 60px;
+    width: 300px;
+    border:darkblue solid 3px;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.login-button, .again-button {
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: yellow;
+}
+
+.login-button:hover, .again-button:hover {
+    border: solid darkblue 5px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(165, 248, 202) , rgb(248, 248, 34));
+}
+.container {
+    text-align: center;
+}
+.game{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;   
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.cell {
+    display: inline-block;
+    border: solid 3px rgb(185, 30, 223) ;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color:  darkblue;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family:cursive;
+    font-size: 50px;
+}
+
+.cell:hover {
+    border: solid 3px rgb(187, 240, 138) ;
+}
+
+.again-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px 40px 20px 40px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: yellow;
+} 
+
+.winner {
+    font-size: 50px;
+    padding: 5px 20px 10px 20px;
+    background: -webkit-linear-gradient(#1c0df0, #b37979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
+}

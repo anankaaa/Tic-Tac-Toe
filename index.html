@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>LOGIN</h1>
+      <form action="">
+        <label for="username1">Pls add username for <span>"X"</span>: </label>
+        <br />
+        <input id="username1" class="username1" type="text" required />
+        <br />
+        <label for="username2">Pls add username for <span>"O"</span>: </label>
+        <br />
+        <input id="username2" class="username2" type="text" required />
+      </form>
+      <button class="login-button">START</button>
+    </div>
+    <div class="container" style="display: none">
+      <h1>TIC-TAC-TOE</h1>
+
+      <p>X: <span class="username3"></span></p>
+      <p>O: <span class="username4"></span></p>
+
+      <div class="game">
+        <div class="cell row"></div>
+        <div class="cell row"></div>
+        <div class="cell row"></div>
+        <br />
+        <div class="cell row1"></div>
+        <div class="cell row1"></div>
+        <div class="cell row1"></div>
+        <br />
+        <div class="cell row2"></div>
+        <div class="cell row2"></div>
+        <div class="cell row2"></div>
+      </div>
+      <div class="winner"></div>
+    </div>
+    <button class="again-button" style="display: none">ÚJRA</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
